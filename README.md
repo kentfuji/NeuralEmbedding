@@ -1,7 +1,7 @@
 # Neural Implicit Embedding for Point Cloud Analysis
 
 This is the author's simple implementation of the CVPR 2020 paper:
- [[Paper]](link coming soon)     
+ [[link coming soon]](link coming soon)     
 
 ## Overview
 We present a novel representation for point clouds that encapsulates the local characteristics of the underlying structure. 
@@ -29,11 +29,14 @@ To run the code, simply run
 python classify.py
 ```
 to conduct classification on ModelNet 40 dataset. Please download the [data](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip), and modify the DATA_DIR and SAVE_DIR to the preferred locations. Please modify both train_files.txt and test_files.txt to only include file names without the extension, e.g. ply_data_train0 
+
 and run
 ```
 python segment.py
 ```
 to conduct segmentation on ShapeNet Parts dataset. Please download the [data](https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_v0.zip) and do the same as above.
+
+Preprocessing data into ELM requires memory space. We recommend splitting the data files into smaller batches if the processing fails.
 
 ## Citation
 Please cite the following paper:
