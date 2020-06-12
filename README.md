@@ -50,6 +50,6 @@ Please cite the following paper:
 <!--- 
 ## License
 MIT License
-
+-->
 ## Reference
-Work related to the proposal [Neural Embedding](https://arxiv.org/abs/1809.04820). -->
+Work related to the proposal [Neural Embedding](https://arxiv.org/abs/1809.04820). 
