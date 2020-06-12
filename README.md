@@ -12,31 +12,31 @@ The key idea is to embed an implicit representation of the point cloud, namely t
 
 Please contact [Kent Fujiwara](https://kfworks.com) for details.
 
-[//]: # ## Requirements
+<!--- ## Requirements
 
-[//]: #The code requires the following:
-[//]: #* Python 3.6
-[//]: #* Keras 2.3
-[//]: #* CUDA 10.1
-[//]: #* cudnn 7
-[//]: #* cupy
-[//]: #* threading
+The code requires the following:
+* Python 3.6
+* Keras 2.3
+* CUDA 10.1
+* cudnn 7
+* cupy
+* threading
 
-[//]: # ## Usage
+## Usage
 
-[//]: #To run the code, simply run
-[//]: #```
-[//]: #python classify.py
-[//]: #```
-[//]: #to conduct classification on ModelNet 40 dataset. Please download the [data](https://shapenet.cs.stanford.edu/[//]: #media/modelnet40_ply_hdf5_2048.zip), and modify the DATA_DIR and SAVE_DIR to the preferred locations. Please modify both train_files.txt and test_files.txt to only include file names without the extension, e.g. ply_data_train0 
+To run the code, simply run
+```
+python classify.py
+```
+to conduct classification on ModelNet 40 dataset. Please download the [data](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip), and modify the DATA_DIR and SAVE_DIR to the preferred locations. Please modify both train_files.txt and test_files.txt to only include file names without the extension, e.g. ply_data_train0 
 
-[//]: #and run
-[//]: #```
-[//]: #python segment.py
-[//]: #```
-[//]: # to conduct segmentation on ShapeNet Parts dataset. Please download the [data](https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_v0.zip) and do the same as above.
+and run
+```
+python segment.py
+```
+to conduct segmentation on ShapeNet Parts dataset. Please download the [data](https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_v0.zip) and do the same as above.
 
-[//]: #Preprocessing data into ELM requires memory space. We recommend splitting the data files into smaller batches if the processing fails.
+Preprocessing data into ELM requires memory space. We recommend splitting the data files into smaller batches if the processing fails.
 
 ## Citation
 Please cite the following paper:
@@ -48,8 +48,8 @@ Please cite the following paper:
 	  year={2020}
 	}
 
-[//]: # [//]: ### License
+## License
 MIT License
 
-[//]: # ## Reference
-[//]: # Work related to the proposal [Neural Embedding](https://arxiv.org/abs/1809.04820).
+## Reference
+Work related to the proposal [Neural Embedding](https://arxiv.org/abs/1809.04820). -->
