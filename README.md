@@ -1,7 +1,7 @@
 # Neural Implicit Embedding for Point Cloud Analysis
 
 This is the author's simple implementation of the CVPR 2020 paper:
- [[Paper]]    
+ [Paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Fujiwara_Neural_Implicit_Embedding_for_Point_Cloud_Analysis_CVPR_2020_paper.pdf) 
 
 ## Overview
 We present a novel representation for point clouds that encapsulates the local characteristics of the underlying structure. 
