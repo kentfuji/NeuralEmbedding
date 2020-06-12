@@ -37,7 +37,7 @@ python segment.py
 to conduct segmentation on ShapeNet Parts dataset. Please download the [data](https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_v0.zip) and do the same as above.
 
 Preprocessing data into ELM requires memory space. We recommend splitting the data files into smaller batches if the processing fails.
-
+-->
 ## Citation
 Please cite the following paper:
 
@@ -47,7 +47,7 @@ Please cite the following paper:
 	  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
 	  year={2020}
 	}
-
+<!--- 
 ## License
 MIT License
 
