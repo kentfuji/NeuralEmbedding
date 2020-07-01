@@ -28,7 +28,7 @@ To run the code, simply run
 ```
 python classify.py
 ```
-to conduct classification on ModelNet 40 dataset. Please download the [data](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip), and modify the DATA_DIR and SAVE_DIR to the preferred locations. Please modify both train_files.txt and test_files.txt to only include file names without the extension, e.g. ply_data_train0 
+to conduct classification on ModelNet 40 dataset. Please download the [data](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip), and modify the DATA_DIR and SAVE_DIR to the preferred locations. As the code creates various intermediate files based on original file names, please modify both train_files.txt and test_files.txt to only include file names without the directory or the extension, e.g. just 'ply_data_train0' 
 
 and run
 ```
