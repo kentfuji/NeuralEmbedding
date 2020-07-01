@@ -38,7 +38,7 @@ def prepSamplePoints(data_size, file_name, weight_name, dim, margin):
                 randpoint = numpy.random.uniform(-margin,margin,3)
                 norm = LA.norm(randpoint)
             sample_points[i] = randpoint
-        b1 = loadRandomWeight(weight_name, dim, False)
+        b1 = loadRandomWeight(weight_name, dim)
         dval = numpy.std(sample_points)
         H1 = numpy.hstack((sample_points, dval* numpy.ones((sample_points.shape[0],1))))
         T1 = numpy.matmul(H1,b1)
